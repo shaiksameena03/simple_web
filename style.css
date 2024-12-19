@@ -1,0 +1,29 @@
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px; 
+    flex-wrap: wrap; 
+}
+section {
+    flex: 1; 
+    min-width: 250px; 
+    padding: 20px;
+    box-sizing: border-box; 
+}
+.logo {
+    height: 100px;
+    width: 5000px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+
+nav ul li {
+    display: inline;
+}
+#departments ul .spaced-item {
+    margin-bottom: 20px; 
+}
